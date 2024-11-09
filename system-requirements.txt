@@ -1,0 +1,45 @@
+﻿
+System Recommendation
+
+This stream processing data pipeline is implemented using.
+
+***********************************************
+
+E-commerce website is developed using python , django
+
+***********************************************
+
+**********************************************
+
+Operating System : Ubuntu 22.04
+
+*********************************************
+
+Apache Kafka: 3.8.0
+For kafka installation and guidance please check
+https://kafka.apache.org/
+
+********************************************
+
+Apache Spark: 3.5.3 
+For apache spark installation and guidance
+https://spark.apache.org/
+
+*******************************************
+
+Get Snowflake Ingest SDK
+https://mvnrepository.com/artifact/net.snowflake/snowflake-ingest-sdk
+select latest version (2.3.0 is the latest version at the time of this document preparation)
+click on latest version to get the next url
+https://mvnrepository.com/artifact/net.snowflake/snowflake-ingest-sdk/2.3.0
+select jar from file section and download file.
+Copy the jar file into kafka/libs folder
+********************************************
+
+
+
+
+
+
+
+

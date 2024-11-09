@@ -1,0 +1,17 @@
+﻿name=mykafkaconnectsnowflake
+connector.class=com.snowflake.kafka.connector.SnowflakeSinkConnector
+tasks.max=8
+topics=(Kafka Topic Name)
+snowflake.topic2table.map= (Topic:Table Table will be generated automatically by kafka)
+buffer.count.records=1
+buffer.flush.time=10
+buffer.size.bytes=5
+snowflake.url.name=(snowflake url – from snowflake account admin account url)
+snowflake.user.name=(snowflake user name)
+snowflake.private.key=(key pair authentication -private and public keys generated using openssl )
+snowflake.private.key.passphrase=
+snowflake.database.name=(Snowflake DB name)
+snowflake.schema.name=(Snowflake schema name)
+value.converter.schema.registry.url=
+key.converter=com.snowflake.kafka.connector.records.SnowflakeJsonConverter
+value.converter=com.snowflake.kafka.connector.records.SnowflakeJsonConverter
